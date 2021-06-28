@@ -1,11 +1,17 @@
 ** 我的Python脚本使用说明
 *** 引用说明
 已经加入git管理的项目引用的时候需要使用硬链接，不然的话git识别不出来
+
 Windows下使用硬链接的代码命令：
+
 以helper工具类为例：
+
 如果直接引用整个模块的话可能识别的路径不对，
+
 也可能会把Python的缓存文件引过去，
+
 最好的办法就是单独硬链接Python脚本
+
 这样任何时间任何地方改代码，都是同步更新的
 #+begin_src
 mklink /H D:\Workspace\Github\mypy\helper\helper_apollo.py      D:\Workspace\YamuProject\data-engine-modules\.modules\management-life-cycle\bin\helper\helper_apollo.py
