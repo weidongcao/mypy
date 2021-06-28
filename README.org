@@ -14,11 +14,11 @@ Windows下使用硬链接的代码命令：
 
 这样任何时间任何地方改代码，都是同步更新的
 #+begin_src
-mklink /H D:\Workspace\Github\mypy\helper\helper_apollo.py      D:\Workspace\YamuProject\data-engine-modules\.modules\management-life-cycle\bin\helper\helper_apollo.py
-mklink /H D:\Workspace\Github\mypy\helper\helper_clickhouse.py  D:\Workspace\YamuProject\data-engine-modules\.modules\management-life-cycle\bin\helper\helper_clickhouse.py
-mklink /H D:\Workspace\Github\mypy\helper\helper_db.py          D:\Workspace\YamuProject\data-engine-modules\.modules\management-life-cycle\bin\helper\helper_db.py
-mklink /H D:\Workspace\Github\mypy\helper\helper_logger.py      D:\Workspace\YamuProject\data-engine-modules\.modules\management-life-cycle\bin\helper\helper_logger.py
-mklink /H D:\Workspace\Github\mypy\helper\helper_postgresql.py  D:\Workspace\YamuProject\data-engine-modules\.modules\management-life-cycle\bin\helper\helper_postgresql.py
-mklink /H D:\Workspace\Github\mypy\helper\helper_shell.py       D:\Workspace\YamuProject\data-engine-modules\.modules\management-life-cycle\bin\helper\helper_shell.py
-mklink /H D:\Workspace\Github\mypy\helper\util.py               D:\Workspace\YamuProject\data-engine-modules\.modules\management-life-cycle\bin\helper\util.py
+mklink /H D:\Workspace\Github\mypy\helper\helper_apollo.py      D:\Workspace\MyProject\data-engine-modules\.modules\management-life-cycle\bin\helper\helper_apollo.py
+mklink /H D:\Workspace\Github\mypy\helper\helper_clickhouse.py  D:\Workspace\MyProject\data-engine-modules\.modules\management-life-cycle\bin\helper\helper_clickhouse.py
+mklink /H D:\Workspace\Github\mypy\helper\helper_db.py          D:\Workspace\MyProject\data-engine-modules\.modules\management-life-cycle\bin\helper\helper_db.py
+mklink /H D:\Workspace\Github\mypy\helper\helper_logger.py      D:\Workspace\MyProject\data-engine-modules\.modules\management-life-cycle\bin\helper\helper_logger.py
+mklink /H D:\Workspace\Github\mypy\helper\helper_postgresql.py  D:\Workspace\MyProject\data-engine-modules\.modules\management-life-cycle\bin\helper\helper_postgresql.py
+mklink /H D:\Workspace\Github\mypy\helper\helper_shell.py       D:\Workspace\MyProject\data-engine-modules\.modules\management-life-cycle\bin\helper\helper_shell.py
+mklink /H D:\Workspace\Github\mypy\helper\util.py               D:\Workspace\MyProject\data-engine-modules\.modules\management-life-cycle\bin\helper\util.py
 #+end_src
